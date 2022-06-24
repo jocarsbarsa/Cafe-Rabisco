@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.inicio{
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 4%;
+}
+
+.inicio button{
+    font-family: sans-serif;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 1rem;
+    background: #603813; 
+    background: -webkit-linear-gradient(to right, #b29f94, #603813);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b29f94, #603813); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 1rem 2rem 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.inicio button:hover{
+    color: black;
+}
+
+
+.fundo_login{
+   background-image: url(/images/Logo2.JPG);
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position: right 20%;
+    max-width: 980px;
+}
+
+.fundo_bemvindo{
+    background-image: url(/images/LogoBemVindo.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right 5%;
+    
+}
+
+.fundo_bemvindo2{
+    background-image: url(/images/Logo2.JPG);
+     background-size:100%;
+     background-repeat: no-repeat;
+     background-position: right 5%;
+     max-width: 980px;
+}
+
+.form{
+    width: 400px;
+    margin: left;
+    padding-top: 130px;
+    padding-left: 100px;
+}
+
+.card{
+    box-shadow: 2px 2px 10px #f2efeb;
+    background-image:linear-gradient(to right,#664722,#886130);
+    padding: 40px;
+    border-radius: 5px;
+}
+.cardtopo{
+    text-align: center;
+}
+
+.cardgroup{
+    margin-bottom: 15px;
+}
+
+.cardgroup > label{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    color:#f2efeb ;
+    display: block;
+}
+.cardgroup > input{
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+}
+
+.cardgroup > button{
+    background-color: #886130;
+    box-shadow: 0px 9px #f2efeb;
+    width: 100%;
+    border-radius: 20px;
+    padding: 15px;
+    color:#f2efeb;
+    font-size: large;
+    display: block;
+    border: solid 1px;
+    margin-top: 50px;
+}
+
+
+.cardgroup > button:active {
+    background-color: #664722;
+    box-shadow: 0 5px rgb(146, 120, 101);
+    transform: translateY(4px);
+  }
+
+.cardgroup > button:hover {background-color: #664722}
+
+
+.title{
+    color: #f2efeb;
+    font-family: Arial, Helvetica, sans-serif;
+}
